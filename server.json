@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "markets.bobby/free",
+  "title": "Agent Bobby Free",
+  "description": "Free public stock research, market context, and comparisons for AI agents.",
+  "websiteUrl": "https://bobby.markets/agent-room",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bobby.markets/mcp/free"
+    }
+  ]
+}
